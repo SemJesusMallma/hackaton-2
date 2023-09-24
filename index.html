@@ -3,9 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mr.Sas</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!--Bloque 1: Hero-->
+    <section class="hero">
+        <h1 class="hero-title">FrontEnd</h1>
+        <!--puede ser un h2 o div tambien-->
+        <p class="hero-text">Hola, mi nombre <br> es Sem Jesús</p>
+    </section>
+
+    <!--Bloque 2: Sobre Mi-->
+    <section class="sobremi">
+        <h2 class="sobremi-titulo">Sobre mi</h2>
+        <p class="sobremi-contenido">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae rem quae deserunt quaerat, officiis veritatis, non dolorem corrupti tenetur reprehenderit inventore impedit consectetur facere nisi illum molestias ipsam similique porro!
+            Maiores dicta veritatis obcaecati incidunt ad. Neque impedit nemo nisi dolorem dolore saepe blanditiis ex quidem, perspiciatis placeat culpa at tenetur, ratione odit molestias amet ad ullam accusamus labore fugiat.
+            Consectetur molestias consequatur dicta in explicabo non maxime harum dolores, ipsum, reiciendis incidunt. Eveniet animi cumque distinctio repellat exercitationem impedit nobis fugit atque, tempora alias eum ab earum libero in!
+            Soluta eius quo sapiente accusantium eaque eos doloremque quibusdam nostrum, porro mollitia neque, dignissimos qui quos iste. Eveniet voluptatem harum sapiente! Aut, quidem facere. Consequuntur expedita dolores nam labore minus.
+            Dolore voluptatum optio ratione commodi omnis earum quia blanditiis perspiciatis soluta aut, perferendis aspernatur excepturi quidem eligendi quas iste consectetur molestiae repellat ex est nulla dignissimos error! Ipsam, reprehenderit exercitationem.
+            Tempora soluta sit, debitis provident mollitia fuga esse, dolorem eos totam eligendi, libero omnis voluptas nisi. Ad porro qui recusandae aspernatur tempora deserunt est eius illum provident unde, eaque explicabo.
+        </p>
+        <button class="sobremi-boton">Ver CV</button>
+        <!--<input type="button" value="Ver CV">-->
+    </section>
+
+    <!--Bloque 3: Mis Skills-->
+    <section>
+        <h2>Mis Skills</h2>
+        <div class="wrapper-mis-skills">
+            <!--Elemento 1-->
+            <section>
+                <div>HTML</div>
+                <progress max="100" value="50"></progress>
+            </section>
+
+            <!--Elemento 2-->
+            <section>
+                <div>CSS</div>
+                <progress max="100" value="30"></progress>
+            </section>
+
+            <!--Elemento 3-->
+            <section>
+                <div>Javascript</div>
+                <progress max="100" value="15"></progress>
+            </section>
+
+            <!--Elemento 4-->
+            <section>
+                <div>Vue</div>
+                <progress max="100" value="5"></progress>
+            </section>
+
+            <!--Elemento 5-->
+            <section>
+                <div>Flexbox</div>
+                <progress max="100" value="5"></progress>
+            </section>
+
+            <!--Elemento 6-->
+            <section>
+                <div>CSS Grid</div>
+                <progress max="100" value="5"></progress>
+            </section>
+        </div>
+    </section>
+
+    <!--Bloque 4: Portafolio-->
+    <section>
+        <h2>Portafolio</h2>
+        <div class="wrapper-portafolio">
+            <!--Imagen 1-->
+            <section>
+                <img src="img/image-1.jpg" alt="portafolio-1" width="200">
+            </section>
+
+            <!--Imagen 2-->
+            <section>
+                <img src="img/image-2.jpg" alt="portafolio-2" width="200">
+            </section>
+
+            <!--Imagen 3-->
+            <section>
+                <img src="img/image-3.jpg" alt="portafolio-3" width="200">
+            </section>
+
+            <!--Imagen 4-->
+            <section>
+                <img src="img/image-4.jpg" alt="portafolio-4" width="200">
+            </section>
+
+            <!--Imagen 5-->
+            <section>
+                <img src="img/image-5.jpg" alt="portafolio-5" width="200">
+            </section>
+
+            <!--Imagen 6-->
+            <section>
+                <img src="img/image-6.jpg" alt="portafolio-6" width="200">
+            </section>
+
+            <!--Imagen 7-->
+            <section>
+                <img src="img/image-7.jpg" alt="portafolio-7" width="200">
+            </section>
+
+            <!--Imagen 8-->
+            <section>
+                <img src="img/image-8.jpg" alt="portafolio-8" width="200">
+            </section>
+        </div>
+    </section>
+
+    <!--Bloque 5: Clientes-->
+    <section>
+        <h2>Clientes</h2>
+        <div class="wrapper-clientes">
+            <!--Imagen 1-->
+            <section>
+                <img src="img/clientes-1.jpg" alt="clientes-1" width="200">
+            </section>
+
+            <!--Imagen 2-->
+            <section>
+                <img src="img/clientes-2.jpg" alt="clientes-2" width="200">
+            </section>
+
+            <!--Imagen 3-->
+            <section>
+                <img src="img/clientes-3.jpg" alt="clientes-3" width="200">
+            </section>
+
+            <!--Imagen 4-->
+            <section>
+                <img src="img/clientes-4.jpg" alt="clientes-4" width="200">
+            </section>
+        </div>
+    </section>
+
+    <!--Bloque 6: Contacto-->
+    <section>
+        <h2>Contacto</h2>
+        <form method="post">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="apellido" placeholder="Apellido">
+                <input type="email" name="email" placeholder="Email">
+                <input type="tel" name="telefono" placeholder="Teléfono">
+                <textarea cols="30" rows="10" name="descripcion" placeholder="Descripción"></textarea>
+                <button>ENVIAR</button>
+        </form>
+    </section>
 </body>
 </html>
